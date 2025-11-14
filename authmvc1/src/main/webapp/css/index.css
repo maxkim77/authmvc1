@@ -1,0 +1,54 @@
+@charset "EUC-KR";
+/* login */
+.login {
+    margin: auto;
+}
+/* login 제목 내용 */
+.main-title {
+    font-size: 24px;
+    text-align: center; /*좌우 가운데 정렬*/
+}
+
+.main-desc {
+    color: grey;
+    margin: 12px 32px;
+    text-align: center;
+}
+/* login form 공통 */
+#main-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 16px;
+}
+
+textarea,
+input[type="text"],
+input[type="password"] {
+    height: 28px;
+    border: 1px solid #ddd;
+    padding : 0 8px;
+}
+/* login 인풋 가운데 정렬 */
+.flex-input {
+    display: flex;
+    align-items: center;
+}
+.flex-input label {
+    width: 80px;
+}
+.flex-input input {
+    flex-grow: 1;
+}
+/* login button */
+.login-btn {
+    background-color: royalblue;
+    border: 0;
+    border-radius: 4px;
+    height: 36px;
+    color: white;
+    font-weight: bold;
+}
+.login-btn:hover { /*반응 선택자*/
+    background-color: green;
+}

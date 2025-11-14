@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+.profile {
+    display:flex;
+    flex-direction: column;
+    align-items: center; /*좌우정렬*/
+    justify-content: center; /*상하정렬*/
+    height: 100vh;
+}
+.welcome-container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+}
+.profile-img {
+    width: 120px;
+    height: 120px;
+}
+.profile p{
+    color: grey;
+
+}
+
+
